@@ -6,5 +6,5 @@ func CleanWorkSpace(workspace *[][]*string) *[][]*string {
 			(*workspace)[i][j] = nil
 		}
 	}
-	return workspace // IMPORTANT : retourner le workspace
+	return workspace
 }
